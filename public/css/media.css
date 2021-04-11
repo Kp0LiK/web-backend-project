@@ -1,0 +1,175 @@
+@media(max-width: 1300px){
+    .slider .slick-btn{
+        display: none !important;
+        
+    }
+}
+@media(max-width: 1255px){
+    header #logo img{
+    width: 50px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 70px;
+}
+.header__btn{
+    float: none;
+}
+    .header_btn{
+        display: block;
+        padding: 10px 0.5% 0px 95%;
+    }
+    #about{
+        display: none;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+    #about a{
+        display: block;
+        background-color: #ffc222;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        
+    }
+    #about a{
+        margin-right: 0%;
+        font-size: 20px;
+    }
+    header #logo img{
+        margin: 0;
+        margin-top: -10px;
+    }
+}
+
+
+@media(max-width: 991px){
+    .footer__info{
+        margin: 0;
+    }
+    .footer__inner{
+      display: block;
+    }
+    .footer__map{
+      max-width: 100%;
+    }
+    .raw{
+        display: block;
+    }
+    .card_image{
+        margin-top: 20px;
+    }
+    .header_btn{
+        display: block;
+        padding: 10px 0.5% 0px 76%;
+    }
+}
+
+@media (min-width: 801px) {
+    #faq div {
+      width: 25%;
+      margin-left: 6%;
+      float: left;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    #faq div {
+      width: 80%;
+      margin-left: 10%;
+      float: left;
+    }
+  }
+
+@media(max-width: 769px){
+    #about a{
+        margin-right: 14%;
+        font-size: 20px;
+    }
+    .footer__info .header__btn:before{
+        display: block;
+      }
+    #top{
+        height: 800px;
+        font-size: 25px;
+    }
+    #top img{
+        width: 650px;
+    }
+}
+
+@media(max-width: 660px){
+    #top{
+        height: 700px;
+        font-size: 20px;
+    }
+    #top img{
+        width: 550px;
+    }
+}
+
+@media(max-width: 565px){
+    #about a{
+        margin-right: 29%;
+        font-size: 20px;
+    }
+    #modal{
+        margin-left: -149px;
+    }
+    .header_btn{
+        padding: 11px 0.5% 0px 60%;
+    }
+    #top{
+        height: 500px;
+        font-size: 15px;
+    }
+    #top img{
+        width: 360px;
+        margin-left: -8px;
+    }
+    .text{
+        font-size: 13px;
+        margin-right: 18px;
+    }
+    .title{
+        margin: 0;
+        text-align: center;
+    }
+    .subtitle{
+        margin: 0;
+        text-align: center;
+    }
+    .card_image img{
+        margin-right: 20px;
+    }
+    .slider__title{
+        font-size: 22px;
+        
+    }
+    .slider__text{
+        width: 80%;
+        font-size: 15px;
+        margin-left: 40px;
+    }
+    .slider__btn{
+        margin-right: -4px;
+    }
+
+    #contacts h5{
+        font-size: 30px;
+    }
+    #form_input {
+        margin-top: 15px;
+        width: 67%;
+        margin-left: 21%;
+        font-size: 1.1em;
+    }
+}
+
+
+@media(min-width: 1255px){
+    #about{
+        display: block !important;
+    }
+}

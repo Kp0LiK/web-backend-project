@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+.arrowUp:hover {
+    background-position: 100% 0;
+} 
+header{
+    width: 100%;
+    padding: 10px 0.5% 0px 0.5%;
+    float: left;
+    position: fixed;
+}
+
+header #logo img{
+    width: 50px;
+    float: left;
+    margin-top: -10px;
+    margin-left: 70px;
+}
+
+#about{
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Sansita Swashed', cursive;
+    cursor: pointer;
+    margin-right: 80px;
+}
+
+#about > a{
+    color: rgb(1, 82, 1);
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 0px 16px;
+    transition: all .3s;
+}
+
+#about > a:hover{
+    border-color: #4DA94D;
+}
+
+#about a{
+    margin-right: 4%;
+}
+
+.fixed{
+    z-index: 5000;
+    background-color: #fbffe1;
+    border-bottom: 1px solid rgb(1, 82, 1);;
+}
+
+
+
+#top{
+    width: 100%;
+    height: 1000px;
+    background-image: url(http://jonestea.com/images/home-banner3.jpg);
+    background-blend-mode: multiply;
+    background-color: #ffffe2;
+    background-size: cover;
+    text-align: center;
+    color: rgb(1, 82, 1);
+    font-size: 25px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#top img{
+    width: 750px;
+    margin-top: 20%;
+    margin-left: 10px;
+    margin-top: 180px;
+    position: relative;
+}
+
+#kinds{
+    border-top: 2px solid rgb(248, 207, 119);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-blend-mode: multiply;
+    background-color: #ffffe2;
+}
+
+.title{
+    font-size: 30px;
+    color: rgb(1, 82, 1);
+    font-family: 'Sansita Swashed', cursive;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.subtitle{
+    line-height: 24px;
+    font-size: 15px;
+    color: rgb(1, 82, 1);
+    font-family: 'Sansita Swashed', cursive;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 90px;
+}
+
+.raw{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.card{
+    text-align: center;
+    color: rgb(1, 82, 1);
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.card_image{
+    margin-bottom: 5px;
+}
+
+.card_title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card_price{
+    font-size: 15px;
+    color: #f72464;
+    font-weight: 600;
+}
+
+.card_price span{
+    color: rgb(148, 142, 142);
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+
+#teawith{
+    /* padding: 150px 20%;
+    width: 60%; */
+    background-image: url(https://i.pinimg.com/originals/c5/90/14/c59014fed013b9d13d6a71af97898f22.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: #ffffe2;
+    min-height: 750px;
+    border-top: 2px solid rgb(248, 207, 119);
+    color: rgb(1, 82, 1);
+    /* font-size: 1.3em;
+    background-image: url(https://i.pinimg.com/originals/c5/90/14/c59014fed013b9d13d6a71af97898f22.png);
+    background-position-x: 300px;
+    background-position-y: 70px;
+        */
+}
+
+.slider__item-content{
+    text-align: center;
+    padding-top: 110px;
+    max-width: 665px;
+    margin: 0 auto;
+}
+
+.slider__title{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 36px;
+    color: rgb(1, 82, 1);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-bottom: 45px;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.slider__text{
+    line-height: 30px;
+    font-size: 20px;
+    color: rgb(1, 82, 1);
+    font-family: 'Sansita Swashed', cursive;
+    margin-bottom: 50px;
+}
+
+.slider__btn{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(1, 82, 1);
+    font-weight: 500;
+    font-family: 'Sansita Swashed', cursive;
+    padding: 8px 30px 8px 24px;
+    border: 2px solid rgb(3 198 3);
+    border-right-width: 20px;
+    position: relative;
+    z-index: 2;
+    outline: none;
+    text-decoration: none;
+}
+
+.slider__btn:after{
+    content: "\f105";
+    font-family: 'icomoon';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+    color: rgb(1, 82, 1);
+}
+
+.slider__inner{
+    position: relative;
+}
+
+.slick-btn{
+    position: absolute;
+    top: 50%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgb(1, 82, 1);
+    background-color: #FFFFEF;
+    outline: none;
+    cursor: pointer;
+}
+
+.slick-btn.slick-disabled{
+    cursor: default;
+    background-color: transparent;
+}
+
+.slick-btn:before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon';
+}
+
+.slick-next{
+    right: 250px;
+}
+
+.slick-next:before{
+    content: "\f105";
+}
+
+.slick-prev{
+    left: 250px;
+}
+
+.slick-prev:before{
+    content: "\f104";
+}
+/* #teawith div{
+    margin-left: 300px;
+    width: 38%;
+    float: left;
+}
+#teawith h2{padding-bottom: 20px;}
+#teawith span{font-family: 'Sansita Swashed', cursive;} */
+
+#contacts{
+    width: 100%;
+    float: left;
+    padding-bottom: 40px;
+    padding-top: 70px;
+    border-top: 4px solid rgb(248, 207, 119);
+    background: #ffffe2;
+}
+
+#contacts h5{
+    font-size: 3em;
+    color: rgb(1, 82, 1);
+}
+
+#form_input{
+    margin-top: 15px;
+    width: 35%;
+    margin-left: 38%;
+    font-size: 1.1em;
+}
+
+#form_input label{
+    color: rgb(1, 82, 1);
+    cursor: pointer;
+    font-size: 1.4em;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+#form_input label > span{
+    color: #e87e7e;
+}
+
+#form_input input, #form_input textarea{
+    margin-bottom: 10px;
+    width: 70%;
+    padding: 10px 2%;
+    border-radius: 7px;
+    border: 2px solid silver;
+    font-size: 0.9em;
+    color: rgb(255 255 255);
+}
+#form_input  .btn{
+    width: 40%;
+}
+
+.btn{
+    float: left;
+    border-radius: 5px;
+    padding: 5px 9px;
+    font-size: 1.2em;
+    background-color: #63db08;
+    text-shadow: #454545 0 0 2px;
+    cursor: pointer;
+    color: white;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+.btn:hover{
+    background-color:  #277403;
+}
+
+#faq{
+    background-color: #ffffe2;
+    border-top: 2px dashed rgb(248, 207, 119);
+    width: 100%;
+    float: left;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: rgb(1, 82, 1);
+}
+
+#faq div{
+    width: 25%;
+    margin-left: 6%;
+    float: left;
+}
+
+#faq .title{
+    font-weight: lighter;
+    color: rgb(1, 82, 1);
+    margin-bottom: 20px;
+    font-size: 2.2em;
+}
+
+#faq .heading{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+#faq p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.95em;
+    margin-bottom: 40px;
+}
+
+#modal{
+    display: none;
+}
+
+.footer__content{
+    background-color:  #595959;
+    padding: 20px 0px 30px;
+}
+
+.footer__inner{
+     display: flex;
+     width: 100%;
+     justify-content: space-between;
+     padding-top: 20px;
+}
+
+.footer__map{
+    padding-top: 10px;
+    max-width: 630px;
+    width: 100%;
+    padding-right: 150px;
+}
+.footer__map iframe{
+    width: 100%;
+}
+
+.footer__title{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: 500;
+    font-size: 16px;
+    color: snow;
+    line-height: 36px;
+    letter-spacing: 0.5px;
+}
+
+.footer__text{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.footer__info{
+    max-width: 360px;
+    margin-left: 150px;
+}
+
+.footer__list li{
+    margin-top: 10px;
+    outline: none;
+}
+
+.footer__list a{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    color: white;
+    padding-left: 33px;
+    position: relative;
+}
+
+.footer__list a:before{
+    content: "\f0e0";
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+    font-family: 'icomoon';
+}
+
+.footer__list .footer__phone:before{
+    content: "\f098";
+    left: 1px;
+}
+
+.footer__list .footer__adress:before{
+    content: "\f041";
+    left: 3px;
+}
+
+.footer__copy{
+    background-color: #303030;
+    text-align: center;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 8px 0;
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#modal{
+    width: 300px;
+}
+#modal input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    outline: none;
+    height: 40px;
+    border: 1px solid #e6e6e6;
+    padding: 0px 10px;
+}
+#modal input[type="submit"]{
+    background-color: #1cac09;;
+    border: none;
+}
+
+.copy__text{color: silver;}
+li {list-style-type: none;}
+.header_btn{
+    display: none;
+    padding: 10px 0.5% 0px 95%;
+    width: 5%;
+    font-size: 28px;
+}
